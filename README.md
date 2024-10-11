@@ -1,7 +1,9 @@
 # decay-visualizer
 Visualize the decay of chemicals in real-time.
 
-This program uses ncurses to visualize the decay of chemicals. It prints ascii characters to the screen which represent chemicals, they will disappear from the display as they decay.
+![decay-visualizer-preview](https://github.com/user-attachments/assets/585b5fa8-e2c3-44e5-a977-0025a27a00d3)
+
+This program uses ncurses to visualize the decay of chemicals. Each chemical is given a random probability at which decays, when they decay they will no longer be displayed.
 
 ## Building Executable
 To build executable, use `make` command while in the repo's root directory:
